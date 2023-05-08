@@ -9,6 +9,14 @@ body {
     margin: 0;
 }
 
+.container {
+    display: flex;
+}
+
+.container-child {
+    flex: 1;
+}
+
 .image {
     background-image: url("https://images.unsplash.com/photo-1531292039036-7720ff2dadd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
     margin: none;
@@ -44,4 +52,60 @@ h3 {
     position: absolute;
     top: 655px;
     left: 185px;
+}
+
+.text-side {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.text-child {
+    flex: 1;
+}
+
+.text {
+    max-width: 475px;
+}    
+
+.blanks {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .75rem;
+}
+
+input {
+    height: 1.5rem;
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: forestgreen;
+}
+
+input:focus {
+    background-color: lightblue;
+    border: 3px solid blue;
+    box-shadow: 10px 5px 5px darkslategray;
+}
+
+button {
+    height: 2.5rem;
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: forestgreen;
+    margin-left: 195px;
+}
+
+.msg {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .75rem;
+    margin-left: 195px;
 }
